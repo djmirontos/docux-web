@@ -8,6 +8,10 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.svg ',
+    shortcut: '/favicon.svg ',
+  },
   title: "DocuX - Your AI Document Assistant",
   description: "Scan, organise, and never lose a document again. DocuX uses AI to automatically classify your documents, extract key details, and keep everything searchable.",
   keywords: "document scanner, AI, OCR, document organiser, Android app, passport tracker, expiry reminder",
