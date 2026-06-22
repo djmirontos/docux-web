@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { motion, useInView, useScroll, useTransform, AnimatePresence } from "framer-motion";
+import { motion, useInView, useScroll, useTransform, AnimatePresence, type Variants } from "framer-motion";
 import {
   Moon, Sun, ArrowDown, Scan, Brain, FolderOpen, Bell,
   Search, CloudUpload, MessageCircle, Copy, Lock,
@@ -9,12 +9,12 @@ import {
   Plane, Receipt
 } from "lucide-react";
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut " } }
 };
 
-const stagger = {
+const stagger: Variants = {
   visible: { transition: { staggerChildren: 0.1 } }
 };
 
