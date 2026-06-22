@@ -378,7 +378,7 @@ export default function Home() {
       </Section>
 
       {/* FOOTER */}
-      <footer style={{ background: "#0f0f1a", padding: "40px 36px" }}>
+      <footer style={{ background: "var(--card)", padding: "40px 36px" }}>
         <div style={{ maxWidth: 920, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16 }}>
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 4 }}>
