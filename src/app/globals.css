@@ -1,8 +1,52 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f5f3ff;
+  --background-secondary: #f8faff;
+  --foreground: #0f0f1a;
+  --foreground-secondary: #4B5563;
+  --foreground-muted: #9CA3AF;
+  --border: rgba(0,0,0,0.07);
+  --border-strong: rgba(0,0,0,0.15);
+  --card: #ffffff;
+  --nav: rgba(255,255,255,0.92);
+
+  --mint: #34D399;
+  --mint-dark: #059669;
+  --mint-bg: rgba(52,211,153,0.12);
+  --purple: #A855F7;
+  --purple-dark: #7C3AED;
+  --purple-bg: rgba(168,85,247,0.12);
+  --blue: #60A5FA;
+  --blue-dark: #2563EB;
+  --blue-bg: rgba(96,165,250,0.12);
+  --indigo: #4F46E5;
+  --indigo-dark: #4338CA;
+  --indigo-bg: rgba(79,70,229,0.12);
+  --amber: #F59E0B;
+  --amber-dark: #D97706;
+  --amber-bg: rgba(245,158,11,0.12);
+  --teal: #14B8A6;
+  --teal-dark: #0D9488;
+  --teal-bg: rgba(20,184,166,0.12);
+  --rose: #F43F5E;
+  --rose-dark: #E11D48;
+  --rose-bg: rgba(244,63,94,0.12);
+  --sky: #0EA5E9;
+  --sky-dark: #0284C7;
+  --sky-bg: rgba(14,165,233,0.12);
+}
+
+.dark {
+  --background: #0A0F1E;
+  --background-secondary: #111827;
+  --foreground: #F9FAFB;
+  --foreground-secondary: #D1D5DB;
+  --foreground-muted: #6B7280;
+  --border: rgba(255,255,255,0.08);
+  --border-strong: rgba(255,255,255,0.15);
+  --card: #1C2436;
+  --nav: rgba(28,36,54,0.95);
 }
 
 @theme inline {
@@ -12,15 +56,13 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
