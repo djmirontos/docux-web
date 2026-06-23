@@ -82,7 +82,7 @@ export default function DeleteAccountPage() {
             {
               n: "02",
               title: "Send a deletion request",
-              desc: "Email us at djmirontos@gmail.com with the subject line \"Delete Account Request\" and include the Gmail address associated with your DocuX account.",
+              desc: "Email us at support@docux.online with the subject line \"Delete Account Request\" and include the Gmail address associated with your DocuX account.",
             },
             {
               n: "03",
@@ -119,8 +119,8 @@ export default function DeleteAccountPage() {
         }}>
           <h3 style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>Ready to delete your account?</h3>
           <p style={{ fontSize: 13, color: "#6B7280", marginBottom: 20 }}>Send us an email and we will take care of the rest within 30 days.</p>
-          <a href={`mailto:djmirontos@gmail.com?subject=Delete Account Request&body=Hi, I would like to request deletion of my DocuX account. My Gmail address is: `} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#E11D48", color: "#fff", padding: "12px 24px", borderRadius: 24, fontSize: 14, fontWeight: 600, textDecoration: "none" }}>Send Deletion Request</a>
-          <div style={{ fontSize: 12, color: "#9CA3AF", marginTop: 12 }}>djmirontos@gmail.com</div>
+          <a href={`mailto:support@docux.online?subject=Delete Account Request&body=Hi, I would like to request deletion of my DocuX account. My Gmail address is: `} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#E11D48", color: "#fff", padding: "12px 24px", borderRadius: 24, fontSize: 14, fontWeight: 600, textDecoration: "none" }}>Send Deletion Request</a>
+          <div style={{ fontSize: 12, color: "#9CA3AF", marginTop: 12 }}>support@docux.online</div>
         </div>
 
         {/* Alternatives */}

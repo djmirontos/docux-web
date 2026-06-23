@@ -773,7 +773,7 @@ export default function LandingPage() {
         </motion.div>
         <motion.div variants={fadeUp} style={{ textAlign: "center", marginTop: 40 }}>
           <p style={{ fontSize: 14, color: "var(--foreground-secondary)", marginBottom: 12 }}>Still have questions?</p>
-          <a href="mailto:djmirontos@gmail.com" style={{
+          <a href="mailto:support@docux.online" style={{
             display: "inline-flex", alignItems: "center", gap: 8,
             fontSize: 14, fontWeight: 600, color: "var(--purple-dark)",
             textDecoration: "none", background: "var(--purple-bg)",
@@ -848,7 +848,7 @@ export default function LandingPage() {
             <div style={{ fontSize: 13, color: "var(--foreground-muted)" }}>Your AI document assistant · Android app</div>
           </div>
           <div style={{ display: "flex", gap: 28, flexWrap: "wrap" }}>
-            {[["Privacy Policy", "/privacy"], ["Terms of Service", "/terms"], ["Delete Account", "/delete-account"], ["Contact", "mailto:djmirontos@gmail.com"]].map(([label, href]) => (
+            {[["Privacy Policy", "/privacy"], ["Terms of Service", "/terms"], ["Delete Account", "/delete-account"], ["Contact", "mailto:support@docux.online"]].map(([label, href]) => (
               <a key={href} href={href} className="nav-link" style={{ fontSize: 13, color: "var(--foreground-muted)", textDecoration: "none", fontWeight: 500 }}>{label}</a>
             ))}
           </div>

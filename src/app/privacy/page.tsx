@@ -116,7 +116,7 @@ Cloud backup data is stored in Supabase with row-level security (RLS) enabled, e
           },
           {
             title: "8. Children's Privacy",
-            content: `DocuX is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at djmirontos@gmail.com.`
+            content: `DocuX is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at support@docux.online.`
           },
           {
             title: "9. Your Rights",
@@ -128,11 +128,11 @@ Cloud backup data is stored in Supabase with row-level security (RLS) enabled, e
 - Withdraw consent for data processing at any time
 - Export your data
 
-To exercise any of these rights, contact us at djmirontos@gmail.com.`
+To exercise any of these rights, contact us at support@docux.online.`
           },
           {
             title: "10. Data Deletion",
-            content: `You can request complete deletion of your account and all associated cloud data at any time by visiting docux.online/delete-account or by contacting us at djmirontos@gmail.com.
+            content: `You can request complete deletion of your account and all associated cloud data at any time by visiting docux.online/delete-account or by contacting us at support@docux.online.
 
 Local data stored on your device can be deleted by uninstalling the DocuX app or clearing app data from your Android device settings.
 
@@ -147,7 +147,7 @@ Cloud data deletion requests are processed within 30 days.`
             content: `If you have any questions about this Privacy Policy or our data practices, please contact us at:
 
 Airyl Tech
-Email: djmirontos@gmail.com
+Email: support@docux.online
 Website: https://www.docux.online`
           },
         ].map((section, i) => (

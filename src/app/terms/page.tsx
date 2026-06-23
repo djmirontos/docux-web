@@ -75,7 +75,7 @@ When you connect your Google account, you are responsible for:
 
 - Maintaining the confidentiality of your account credentials
 - All activities that occur under your account
-- Notifying us immediately of any unauthorized use at djmirontos@gmail.com
+- Notifying us immediately of any unauthorized use at support@docux.online
 
 We reserve the right to terminate accounts that violate these Terms.`
           },
@@ -111,7 +111,7 @@ Plan limits and prices are subject to change with reasonable notice.`
 - Refunds are handled according to Google Play's refund policy
 - Subscription management is handled by RevenueCat on our behalf
 
-For billing disputes, contact Google Play support or email djmirontos@gmail.com.`
+For billing disputes, contact Google Play support or email support@docux.online.`
           },
           {
             title: "6. Acceptable Use",
@@ -183,7 +183,7 @@ Continued use of DocuX after changes constitutes acceptance of the updated Terms
             content: `If you have any questions about these Terms of Service, please contact us at:
 
 Airyl Tech
-Email: djmirontos@gmail.com
+Email: support@docux.online
 Website: https://www.docux.online`
           },
         ].map((section, i) => (
