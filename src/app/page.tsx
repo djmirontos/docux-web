@@ -120,7 +120,7 @@ export default function LandingPage() {
   const cta = useInViewAnimate();
 
   const faqs = [
-    { q: "Is DocuX really free?", a: "Yes. The free tier includes unlimited offline scanning, 5 AI-classified documents, 15 AI chat messages per month, and 10 cloud backup records. DocuX Pro removes all limits for $2.99/month or $19.99/year." },
+    { q: "Is DocuX really free?", a: "Yes. The free tier includes unlimited offline scanning, 5 AI-classified documents per month, 15 AI chat messages per month, and 10 cloud backup records. DocuX Pro removes all limits for $2.99/month or $19.99/year." },
     { q: "Does DocuX work without internet?", a: "Core OCR scanning works 100% offline using ML Kit on-device — no internet needed, no data leaves your phone. AI classification and cloud backup require an internet connection." },
     { q: "What kinds of documents can DocuX scan?", a: "Passports, national IDs, driver licences, seaman books, STCW certificates, employment contracts, receipts, invoices, boarding passes, utility bills, insurance cards, bank statements, and more." },
     { q: "Is my data safe and private?", a: "Scanned images are stored locally by default. Cloud backup syncs to Supabase with Google Sign-In authentication. AI classification sends only OCR text — never your images — to DeepSeek or Claude for processing." },
@@ -688,7 +688,7 @@ export default function LandingPage() {
               <div style={{ fontSize: 18, fontWeight: 600, marginBottom: 4 }}>Free</div>
               <div style={{ fontSize: 42, fontWeight: 700, letterSpacing: "-0.03em", marginBottom: 2 }}>$0</div>
               <div style={{ fontSize: 13, color: "var(--foreground-muted)", marginBottom: 24 }}>forever</div>
-              {["5 AI-processed documents (lifetime)", "15 AI chat messages per month", "10 backup and restore records", "Unlimited offline OCR scanning", "Smart collections and expiry alerts"].map((f, i) => (
+              {["5 AI-processed documents per month", "15 AI chat messages per month", "10 backup and restore records", "Unlimited offline OCR scanning", "Smart collections and expiry alerts"].map((f, i) => (
                 <div key={i} style={{ display: "flex", gap: 10, fontSize: 13, color: "var(--foreground)", marginBottom: 10, alignItems: "center" }}>
                   <Check size={14} style={{ color: "var(--mint)", flexShrink: 0 }} />{f}
                 </div>
